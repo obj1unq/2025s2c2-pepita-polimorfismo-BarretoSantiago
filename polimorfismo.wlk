@@ -41,3 +41,48 @@ object manzana {
 	}
 	
 }
+
+object pepon {
+	var energia = 30
+	method miEnergia() {
+		return energia
+	}
+	method comer(alimento){
+		energia = energia + alimento.energiaQueAporta()*0.5
+	}
+	method volar(distancia){
+		energia = energia - 20 - 2*distancia
+	}
+}
+
+object roque {
+	var ave = pepita
+	var cantidad = 0
+	method ave(_ave) {
+		ave = _ave
+		cantidad = 0
+	}
+	method alimentar(comida){
+		ave.comer(comida)
+		cantidad = cantidad + 1
+	}
+	method cenas(){
+		return cantidad
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
