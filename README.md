@@ -11,7 +11,7 @@ Agregar a Pepón: Pepón es otra ave que puede comer el alpiste y la manzana y s
 - Sabe decir su energía. 
 - Cuando come, solo puede aprovechar la mitad de la energía que aporta el alimento
 - Cuando vuela gasta 20 fijos más 2 joules por km, 
-
+a
 Ejemplos:
 - si tiene 30 de energía y come alpiste su nueva energía es 30 + 20/2 = 40 
 - si tiene 30 de energía y vuela 3 km su nueva energía es: 30 - 20 - 2*3 = 4
